@@ -1,0 +1,21 @@
+header {
+    width: 100%;
+    border-radius: 2rem;
+    background-image: linear-gradient(rgb(118, 118, 255),cyan);
+}
+header > nav {
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.status{
+    display: flex;
+    gap: 2rem;
+}
+.status > div {
+    text-align: center;
+}
+.status > div > h4 {
+    margin-block: 0.33rem;
+}
